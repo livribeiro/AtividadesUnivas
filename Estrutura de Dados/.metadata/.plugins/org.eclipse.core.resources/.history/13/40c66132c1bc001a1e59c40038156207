@@ -1,0 +1,51 @@
+package questao9;
+
+import java.util.*;
+
+public class VetorCircular {
+	public static void main(String[] args) {
+
+	
+		Scanner scanner = new Scanner(System.in);
+
+		ArrayList<Integer> array = new ArrayList<>();
+
+		int option = 0;
+		int tamArray = 5;
+		int aux = 1;
+	
+		System.out.println("Insira os valores na lista.");
+		for(int i = 0; i < tamArray; i++) {
+			array.add(scanner.nextInt());
+			System.out.println(array);
+		}
+		
+		
+		
+		
+		while (option != 9) {
+			System.out.println("1 - Modificar valores.");
+			System.out.println("2 - Remover um valor.");
+			System.out.println("9 - Sair.");
+			option = scanner.nextInt();
+			
+			if(option == 1) {
+				for(int i = 0; i < tamArray; i++) {
+					array.set(i, scanner.nextInt());
+					System.out.println(array);
+				}
+				aux = 1;
+			}else if(option == 2) {
+				System.out.println("Valor " + array.get(tamArray - 1) + " removido.");
+				array.remove(tamArray - aux);
+				array.add(null);
+				System.out.println(array);
+				aux++;
+			}
+			
+			
+
+		}
+	}
+
+}

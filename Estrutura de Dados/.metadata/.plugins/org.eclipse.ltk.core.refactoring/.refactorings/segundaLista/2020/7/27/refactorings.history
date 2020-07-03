@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;jogo&apos; in &apos;br.edu.univas.main.StartApp.main(...)&apos; to &apos;partida&apos;&#x0D;&#x0A;- Original project: &apos;segundaLista&apos;&#x0D;&#x0A;- Original element: &apos;br.edu.univas.main.StartApp.main(String[]).jogo&apos;&#x0D;&#x0A;- Renamed element: &apos;jogo&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;jogo&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/questao7\/src&lt;br.edu.univas.main{StartApp.java[StartApp~main~\[QString;@jogo!207!229!212!215!QJogo;!0!false" name="partida" references="true" stamp="1593734668836" version="1.0"/>
+</session>

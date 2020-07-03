@@ -1,0 +1,45 @@
+package main;
+
+import java.util.Scanner;
+
+import vo.No;
+
+public class StartApp {
+	public static void main(String[] args) {
+		
+		int		opcaoMenu = 0;
+		Scanner sc 		= new Scanner(System.in);
+		No no = new No();
+		
+		do {
+			System.out.println("---- PLAYER ----");
+			System.out.println("1 - Play.		");
+			System.out.println("2 - Stop.		");
+			System.out.println("3 - Pause.		");
+			System.out.println("4 - Forward.	");
+			System.out.println("5 - Rewind.		");
+			
+			opcaoMenu = sc.nextInt();
+			
+			switch(opcaoMenu) {
+				case Menu.PLAY:
+					System.out.println("MÚSICA ATUAL SENDO REPRODUZIDA:");
+					System.out.println(no.getMusicas());
+				break;
+				case Menu.PAUSE:
+					System.out.println("MÚSICA PAUSADA!");
+				break;
+				case Menu.FORWARD:
+					System.out.println("MÚSICA PASSADA!");
+					no.setProximo();
+				break;
+				case Menu.REWIND:
+					System.out.println("MÚSICA ANTERIOR OPTADA!");
+					no.setAnterior();
+					
+				break;
+			}
+		}while(opcaoMenu != 2);
+		
+	}
+}

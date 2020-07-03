@@ -1,0 +1,24 @@
+package br.edu.univas.main;
+
+import br.edu.univas.vo.Fila;
+
+public class StartApp {
+	public static void main(String[] args) {
+		
+		Fila filas = new Fila();
+		
+		String filaMaior = checarMaior(filas);
+		
+		System.out.printf("A %s eh a maior!", filaMaior);
+	}
+
+	
+	private static String checarMaior(Fila filas) {
+		if(filas.getFila1().length > filas.getFila2().length) {
+			return "Fila 1";
+		}else if(filas.getFila1().length < filas.getFila2().length) {
+			return "Fila 2";
+		}
+		return null;
+	}
+}

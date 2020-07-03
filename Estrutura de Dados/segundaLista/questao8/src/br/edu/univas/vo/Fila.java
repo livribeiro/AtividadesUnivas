@@ -1,0 +1,28 @@
+package br.edu.univas.vo;
+
+public class Fila {
+	
+	private int[] fila1 = {1,2,3,4,5,6,7,8,9,10};
+	
+	private int[] fila2 = {1,2,3,4,5};
+	
+	public int[] getFila1() {
+		return fila1;
+	}
+	
+	
+	public void setFila1(int[] fila1) {
+		this.fila1 = fila1;
+	}
+	
+	public int[] getFila2() {
+		return fila2;
+	}
+	
+	public void setFila2(int[] fila2) {
+		this.fila2 = fila2;
+	}
+	
+	
+	
+}

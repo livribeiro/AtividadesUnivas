@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Livia\Desktop\TrabalhosSi\Estrutura de Dados\.metadata\.plugins\org.eclipse.jdt.core
+1009988503.index
+387198542.index
+3796895889.index

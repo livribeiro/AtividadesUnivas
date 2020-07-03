@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="questao7/src"/>
+	<classpathentry kind="src" path="questao8/src"/>
+	<classpathentry kind="src" path="questao9/src"/>
+	<classpathentry kind="output" path="questao7/bin"/>
+</classpath>
