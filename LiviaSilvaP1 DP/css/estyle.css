@@ -1,0 +1,17 @@
+div {
+    border: solid black 1px;
+    text-align: center;
+    width: 800px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+table {
+    margin: 0 auto;
+}
+
+img {
+    padding: 10px;
+    width: 150px;
+    height: 210px
+}
